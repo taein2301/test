@@ -1,0 +1,10 @@
+name: Hello world 
+
+on:
+  workflow_dispatch:
+
+jobs:
+  runs-on: ubuntu-latest
+
+steps:
+  - run: echo " The job was automatically triggered"
